@@ -27,13 +27,13 @@ description: >-                        # used by seo meta and the atom feed
   This is my personal blog about all kinds of technology I'm working or experimenting with. Well, of course this doesn't really cover all of what I'm doing, but at least the things that occur to me as noteworthy... ...and the ones for which I find the time to write something about them.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://flowerfyi.github.io/'
+url: 'https://www.flower.fyi/'
 
 github:
   username: FlowerFYI             # change to your github username
 
-#twitter:
-#  username: twitter_username            # change to your twitter username
+twitter:
+  username: Flower_FYI            # change to your twitter username
 
 social:
   # Change to your full name.
@@ -42,8 +42,8 @@ social:
   email: mail@flower.fyi           # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/Flower_FYI      # change to your twitter homepage
     - https://github.com/FlowerFYI       # change to your github homepage
+    - https://twitter.com/Flower_FYI      # change to your twitter homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     - https://www.linkedin.com/in/carsten-blume
