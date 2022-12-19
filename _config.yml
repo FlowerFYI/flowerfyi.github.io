@@ -87,7 +87,7 @@ avatar: /assets/img/author_cb.jpg
 toc: true
 
 comments:
-  active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: giscus        # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
     shortname:    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
@@ -97,10 +97,10 @@ comments:
     issue_term:   # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo:              # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
+    repo: FlowerFYI/flowerfyi.github.io             # <gh-username>/<repo>
+    repo_id: R_kgDOIpF8uw
+    category: "Page discussions"
+    category_id: DIC_kwDOIpF8u84CTJrC
     mapping:           # optional, default to 'pathname'
     input_position:    # optional, default to 'bottom'
     lang:              # optional, default to the value of `site.lang`
@@ -121,7 +121,7 @@ paginate: 10
 
 plugins:
   - jekyll-target-blank
-  
+
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
